@@ -1,0 +1,216 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
+---
+<Layout>
+	<header class="p-4 md:max-w-6xl mx-auto text-xs md:text-base">
+		<nav class="flex justify-center md:justify-end gap-6">
+			<a>ABOUT US</a>
+			<hr class="w-0.5 h-4 mt-1">
+			<a>FOUNDATION</a>
+			<hr class="w-0.5 h-4 mt-1">
+			<a>CONTACT</a>
+		</nav>
+	</header>
+	<hr class="w-full h-0.5 md:max-w-6xl mx-auto" style="color: var(--primary)">
+	<main class="flex items-center justify-center gap-10 w-full md:max-w-6xl mx-auto mt-10">
+		<section class="flex flex-col items-center gap-10">
+			<div class="flex flex-col items-center gap-6">
+				<h2 class="text-2xl" style="color: var(--primary)">WELCOME TO</h2>
+				<h1 class="text-7xl font-bold text-center">MAT<strong style="color: var(--primary); text-shadow: var(--primary) 0px 0px 12px;">3</strong> LABS</h1>
+				<h3>WHERE COMMUNITY COMES FIRST</h3>
+			</div>
+			<div class="call-to-action">
+				<strong>HAVE A MATE</strong>
+			</div>
+			<aside>
+				<strong>MOVE CONNECT</strong>
+				<strong>BUILD.</strong>
+			</aside>
+		</section>
+		<img src="./robot.png" alt="Robot tomando mate" class="w-auto max-h-128 hidden md:block">
+	</main>
+	<section class="grid grid-cols-3 grid-rows-3 buttons md:max-w-6xl mx-auto pt-10">
+		<div class="p-4 col-start-1 col-end-2">
+			<div class="p-3 md:p-4 border border-amber-400 text-xs md:text-base">
+				Strategy First
+			</div>
+		</div>
+		<div class="p-4 col-start-3 col-end-4">
+			<div class="p-3 md:p-4 border border-amber-400 text-xs md:text-base">
+				Comunity Building
+			</div>
+		</div>
+		<div class="p-4 row-start-2 col-start-2 col-end-3">
+			<div class="p-3 md:p-4 border border-amber-400 text-[#d73cbe] text-xs md:text-base">
+				Content that Connects
+			</div>
+		</div>
+		<div class="p-4 row-start-3">
+			<div class="p-3 md:p-4 border border-amber-400 text-xs md:text-base">
+				Moderation & Activation
+			</div>
+		</div>
+		<div class="p-4 row-start-3 col-start-3">
+			<div class="p-3 md:p-4 border border-amber-400 text-xs	md:text-base">
+				Feedback & Evolution
+			</div>
+		</div>
+	</section>
+	<section class="flex gap-5 justify-center items-center md:max-w-6xl mx-auto mt-10">
+		<img src="./mate.png" alt="Mate" class="w-auto max-h-144 hidden md:block">
+		<article class="flex flex-col gap-10 max-w-xl px-6 md:px-0">
+			<hr class="w-full h-0.5" style="color: white">
+			<h2 class="text-4xl">ABOUT US</h2>
+			<p class="text-pretty" style="color: var(--primary)">At <strong>Mat3 Labs</strong>, we believe the <strong>future belongs to communities</strong>, not just customers.<br> In a world driven by attention and trust, we help brands move beyond transactions and into <strong>real relationships</strong>.</p>
+			<p class="text-pretty" style="color: var(--primary)">We are gamers, sports fans, and <strong>blockchain believers</strong> who understand the <strong>power of connection</strong>. We believe in fostering <strong>strong, engaged audiences</strong> for our clients in <strong>Web3, sports, and entertainment</strong>.</p>
+			<hr class="w-full h-0.5" style="color: white">
+
+			<img src="./arrow_yellow.png" alt="Team" class="w-16 h-16 mx-auto md:ml-auto animate-bounce">
+		</article>
+	</section>
+	<section class="flex flex-wrap gap-10 justify-around items-center md:max-w-6xl md:mx-auto mt-10 mx-2">
+		<figure class="flex md:flex-col gap-4 items-center">
+			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./steven.png" alt="Steven Calvo">
+			<div class="flex flex-col p-2 items-center justify-center container-names">
+				<h4	class="text-xl">Steven Calvo</h4>
+				<small class="text-sm" style="color: var(--primary)">Entrepreneur</small>
+			</div>
+		</figure>
+		<figure class="flex md:flex-col gap-4 items-center">
+			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./miguel.png" alt="Miguel Fernandez">
+			<div class="flex flex-col p-2 items-center justify-center container-names">
+				<h4	class="text-xl">Miguel Fernandez</h4>
+				<small class="text-sm" style="color: var(--primary)">Social Media Manager</small>
+			</div>
+		</figure>
+		<figure class="flex md:flex-col gap-4 items-center">
+			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./lautaro.png" alt="Lautaro Aspirio">
+			<div class="flex flex-col p-2 items-center justify-center container-names">
+				<h4	class="text-xl">Lautaro Aspirio</h4>
+				<small class="text-sm" style="color: var(--primary)">Community Lead</small>
+			</div>
+		</figure>
+		<figure class="flex md:flex-col gap-4 items-center">
+			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./sebastian.png" alt="Sebastian Perez">
+			<div class="flex flex-col p-2 items-center justify-center container-names">
+				<h4	class="text-xl">Sebastian Perez</h4>
+				<small class="text-sm" style="color: var(--primary)">Content Creator</small>
+			</div>
+		</figure>
+	</section>
+	<section class="mt-10">
+		<h2 class="text-4xl text-center py-10 text-[#823416]">WHO WE'VE BUILD WITH</h2>
+		<div class="bg-[#4a6bff] py-5">
+			<div class="md:max-w-6xl mx-auto flex flex-wrap justify-around items-center">
+				<img src="./aleph.png" alt="Aleph">
+				<img src="./bombo.png" alt="Bombo">
+			</div>
+		</div>
+	</section>
+	<section class="md:max-w-6xl mx-auto mt-10">
+		<h2 class="text-4xl text-center py-10">FOUNDATION</h2>
+		<div class="grid grid-col-1 md:grid-cols-3 gap-10 justify-around items-center">
+			<article class="bg-blue-950 py-2 px-4 h-100">
+				<h3 class="text-amber-400 uppercase text-3xl mb-4">Why Choose Mat3 Labs?</h3>
+				<ul class="flex flex-col gap-2 list-disc pl-4">	
+					<li>
+						<strong>Web3 Natives:</strong> We understand the culture, the speed, and the unwritten rules.
+					</li>
+					<li>
+						<strong>Tailored for You:</strong> Every brand, every audience, every roadmap is different. We don’t do cookie-cutter campaigns.
+					</li>
+					<li>
+						<strong>Creators at Heart:</strong> We mix storytelling, content, and interaction into everything we touch, because attention follows meaning.
+					</li>
+				</ul>
+			</article>
+			<article class="bg-blue-950 py-2 px-4 h-100">
+				<h3 class="text-amber-400 uppercase text-3xl mb-4">How We BUILD WITH YOU</h3>
+				<ul class="flex flex-col gap-2 list-disc pl-4">
+					<li>
+						<strong>Collaborative:</strong> Your insights guide the journey.
+					<li>
+						<strong>Execution with Heart:</strong> We treat your brand like our own, from big strategies to daily conversations.
+					</li>
+					<li>
+						<strong>Flexibility Built In:</strong> We adapt fast to new opportunities and challenges without missing momentum.
+					</li>
+					<li>
+						<strong>Clear Communication, Always:</strong> No surprises, no guesswork. We stay aligned at every step.
+					</li>
+				</ul>
+			</article>
+			<article class="bg-blue-950 py-2 px-4 h-100">
+				<h3 class="text-amber-400 uppercase text-3xl mb-4">Our Commitment to Your Growth</h3>
+				<span>Our commitment goes beyond KPIs:</span>
+				<ul class="flex flex-col gap-2 list-disc pl-4 mt-2">
+					<li>
+						<strong>Community Over Clout:</strong> Loyalty and real engagement always come first.
+					</li>
+					<li>
+						<strong>Long-Term Vision:</strong> Strategies that grow and adapt with you.
+					</li>
+					<li>
+						<strong>Culture First:</strong> Every move stays true to your brand’s values.
+					</li>
+				</ul>
+			</article>
+		</div>
+	</section>
+	<section>
+		<div>
+			<img src="" alt="">
+			<iframe src=""></iframe>
+		</div>
+	</section>
+</Layout>
+<style>
+	header {
+		font-family: 'Orbitron', sans-serif;
+		color: var(--primary);
+	}
+	header nav hr {
+		background-color: var(--primary);
+	}
+	header nav a:hover {
+		text-shadow: var(--primary) 0px 0px 12px;
+	}
+
+	main section {
+		font-family: 'Orbitron', sans-serif;
+	}
+
+	.call-to-action {
+		background-image: url('./button.png');
+		background-size: cover;
+		color: var(--primary);
+		font-family: 'Orbitron', sans-serif;
+		padding: 1rem;
+	}
+
+	.buttons {
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+
+	.buttons > div {
+		background: #4a6bff22;
+		padding: 1rem;
+		text-align: center;
+		font-weight: bold;
+		font-size: 1.1rem;
+	}
+	.buttons .text {
+		padding: 1.5rem;
+	}
+
+	.container-names {
+		background-image: url('./container_names.png');
+		background-size: 100% 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		width: 240px;
+		height: 132px;
+	}
+</style>

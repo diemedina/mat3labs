@@ -9,5 +9,5 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
   site: 'https://dieemedinaa.github.io',
-  base: 'mat3labs',
+  base: '',
 });

@@ -23,9 +23,9 @@ import '../styles/global.css';
 			<div class="call-to-action">
 				<strong>HAVE A MATE</strong>
 			</div>
-			<aside>
-				<strong>MOVE CONNECT</strong>
-				<strong>BUILD.</strong>
+			<aside class="flex flex-col">
+				<span class="text-3xl text-[#F19663] drop-shadow-[0_0_8px_#F19663]">MOVE → CONNECT</span>
+				<span class="text-3xl text-[#F19663] drop-shadow-[0_0_8px_#F19663]">↓ BUILD.</span>
 			</aside>
 		</section>
 		<img src="./robot.png" alt="Robot tomando mate" class="w-auto max-h-128 hidden md:block">
@@ -70,28 +70,28 @@ import '../styles/global.css';
 		</article>
 	</section>
 	<section class="flex flex-wrap gap-10 justify-around items-center md:max-w-6xl md:mx-auto mt-10 mx-2">
-		<figure class="flex md:flex-col gap-4 items-center">
+		<figure class="flex md:flex-col gap-4 items-center cursor-pointer" onclick="window.open('https://www.linkedin.com/in/stevencalvo/', '_blank')">
 			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./steven.png" alt="Steven Calvo">
 			<div class="flex flex-col p-2 items-center justify-center container-names">
 				<h4	class="text-xl">Steven Calvo</h4>
 				<small class="text-sm" style="color: var(--primary)">Entrepreneur</small>
 			</div>
 		</figure>
-		<figure class="flex md:flex-col gap-4 items-center">
+		<figure class="flex md:flex-col gap-4 items-center cursor-pointer" onclick="window.open('https://www.linkedin.com/in/mfp89/', '_blank')">
 			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./miguel.png" alt="Miguel Fernandez">
 			<div class="flex flex-col p-2 items-center justify-center container-names">
 				<h4	class="text-xl">Miguel Fernandez</h4>
 				<small class="text-sm" style="color: var(--primary)">Social Media Manager</small>
 			</div>
 		</figure>
-		<figure class="flex md:flex-col gap-4 items-center">
+		<figure class="flex md:flex-col gap-4 items-center cursor-pointer" onclick="window.open('https://www.linkedin.com/in/lautaro-aspiro-b52b5a203/', '_blank')">
 			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./lautaro.png" alt="Lautaro Aspirio">
 			<div class="flex flex-col p-2 items-center justify-center container-names">
 				<h4	class="text-xl">Lautaro Aspirio</h4>
 				<small class="text-sm" style="color: var(--primary)">Community Lead</small>
 			</div>
 		</figure>
-		<figure class="flex md:flex-col gap-4 items-center">
+		<figure class="flex md:flex-col gap-4 items-center cursor-pointer" onclick="window.open('https://www.linkedin.com/in/sebaperezdelfino/', '_blank')">
 			<img class="rounded-full md:w-40 md:h-40 w-32 h-32" src="./sebastian.png" alt="Sebastian Perez">
 			<div class="flex flex-col p-2 items-center justify-center container-names">
 				<h4	class="text-xl">Sebastian Perez</h4>
@@ -100,69 +100,68 @@ import '../styles/global.css';
 		</figure>
 	</section>
 	<section class="mt-10">
-		<h2 class="text-4xl text-center py-10 text-[#823416]">WHO WE'VE BUILD WITH</h2>
+		<h2 class="text-4xl text-center py-10 text-[#de997e] drop-shadow-[0px_0px_4px_#de997e]">WHO WE'VE BUILD WITH</h2>
 		<div class="bg-[#4a6bff] py-5">
 			<div class="md:max-w-6xl mx-auto flex flex-wrap justify-around items-center">
-				<img src="./aleph.png" alt="Aleph">
-				<img src="./bombo.png" alt="Bombo">
+				<a href="https://aleph.crecimiento.build/" target="_blank"><img src="./aleph.png" alt="Aleph" class="w-90 :md:w-auto"></a>
+				<a href="https://wearebombo.com/" target="_blank"><img src="./bombo.png" alt="Bombo" class="h-44"></a>
+			</div>
+		</div>
+	</section>
+	<section class="background-image">
+		<div class="md:max-w-6xl mx-auto pt-10 pb-20">
+			<h2 class="text-4xl text-center py-10">FOUNDATION</h2>
+			<div class="grid grid-col-1 md:grid-cols-3 gap-10 justify-around items-center">
+				<article class="bg-blue-950/60 backdrop-blur-sm py-2 px-4 h-100">
+					<h3 class="text-amber-200 uppercase text-2xl mb-4 text-shadow-[0px_0px_12px_#f1d42b]">Why Choose Mat3 Labs?</h3>
+					<ul class="flex flex-col gap-2 list-disc pl-4">	
+						<li>
+							<strong>Web3 Natives:</strong> We understand the culture, the speed, and the unwritten rules.
+						</li>
+						<li>
+							<strong>Tailored for You:</strong> Every brand, every audience, every roadmap is different. We don’t do cookie-cutter campaigns.
+						</li>
+						<li>
+							<strong>Creators at Heart:</strong> We mix storytelling, content, and interaction into everything we touch, because attention follows meaning.
+						</li>
+					</ul>
+				</article>
+				<article class="bg-blue-950/60 backdrop-blur-sm py-2 px-4 h-100">
+					<h3 class="text-amber-200 uppercase text-2xl mb-4 text-shadow-[0px_0px_12px_#f1d42b]">How We BUILD WITH YOU</h3>
+					<ul class="flex flex-col gap-2 list-disc pl-4">
+						<li>
+							<strong>Collaborative:</strong> Your insights guide the journey.
+						<li>
+							<strong>Execution with Heart:</strong> We treat your brand like our own, from big strategies to daily conversations.
+						</li>
+						<li>
+							<strong>Flexibility Built In:</strong> We adapt fast to new opportunities and challenges without missing momentum.
+						</li>
+						<li>
+							<strong>Clear Communication, Always:</strong> No surprises, no guesswork. We stay aligned at every step.
+						</li>
+					</ul>
+				</article>
+				<article class="bg-blue-950/60 backdrop-blur-sm py-2 px-4 h-100">
+					<h3 class="text-amber-200 uppercase text-2xl mb-4 text-shadow-[0px_0px_12px_#f1d42b]">Our Commitment to Your Growth</h3>
+					<span>Our commitment goes beyond KPIs:</span>
+					<ul class="flex flex-col gap-2 list-disc pl-4 mt-2">
+						<li>
+							<strong>Community Over Clout:</strong> Loyalty and real engagement always come first.
+						</li>
+						<li>
+							<strong>Long-Term Vision:</strong> Strategies that grow and adapt with you.
+						</li>
+						<li>
+							<strong>Culture First:</strong> Every move stays true to your brand’s values.
+						</li>
+					</ul>
+				</article>
 			</div>
 		</div>
 	</section>
 	<section class="md:max-w-6xl mx-auto mt-10">
-		<h2 class="text-4xl text-center py-10">FOUNDATION</h2>
-		<div class="grid grid-col-1 md:grid-cols-3 gap-10 justify-around items-center">
-			<article class="bg-blue-950 py-2 px-4 h-100">
-				<h3 class="text-amber-400 uppercase text-3xl mb-4">Why Choose Mat3 Labs?</h3>
-				<ul class="flex flex-col gap-2 list-disc pl-4">	
-					<li>
-						<strong>Web3 Natives:</strong> We understand the culture, the speed, and the unwritten rules.
-					</li>
-					<li>
-						<strong>Tailored for You:</strong> Every brand, every audience, every roadmap is different. We don’t do cookie-cutter campaigns.
-					</li>
-					<li>
-						<strong>Creators at Heart:</strong> We mix storytelling, content, and interaction into everything we touch, because attention follows meaning.
-					</li>
-				</ul>
-			</article>
-			<article class="bg-blue-950 py-2 px-4 h-100">
-				<h3 class="text-amber-400 uppercase text-3xl mb-4">How We BUILD WITH YOU</h3>
-				<ul class="flex flex-col gap-2 list-disc pl-4">
-					<li>
-						<strong>Collaborative:</strong> Your insights guide the journey.
-					<li>
-						<strong>Execution with Heart:</strong> We treat your brand like our own, from big strategies to daily conversations.
-					</li>
-					<li>
-						<strong>Flexibility Built In:</strong> We adapt fast to new opportunities and challenges without missing momentum.
-					</li>
-					<li>
-						<strong>Clear Communication, Always:</strong> No surprises, no guesswork. We stay aligned at every step.
-					</li>
-				</ul>
-			</article>
-			<article class="bg-blue-950 py-2 px-4 h-100">
-				<h3 class="text-amber-400 uppercase text-3xl mb-4">Our Commitment to Your Growth</h3>
-				<span>Our commitment goes beyond KPIs:</span>
-				<ul class="flex flex-col gap-2 list-disc pl-4 mt-2">
-					<li>
-						<strong>Community Over Clout:</strong> Loyalty and real engagement always come first.
-					</li>
-					<li>
-						<strong>Long-Term Vision:</strong> Strategies that grow and adapt with you.
-					</li>
-					<li>
-						<strong>Culture First:</strong> Every move stays true to your brand’s values.
-					</li>
-				</ul>
-			</article>
-		</div>
-	</section>
-	<section>
-		<div>
-			<img src="" alt="">
-			<iframe src=""></iframe>
-		</div>
+		<img src="./section.png" alt="Section" class="w-full hidden md:block">
 	</section>
 </Layout>
 <style>
@@ -186,7 +185,10 @@ import '../styles/global.css';
 		background-size: cover;
 		color: var(--primary);
 		font-family: 'Orbitron', sans-serif;
-		padding: 1rem;
+		width: 200px;
+		height: 66px;
+		text-align: center;
+		line-height: 66px;
 	}
 
 	.buttons {
@@ -212,5 +214,12 @@ import '../styles/global.css';
 		background-repeat: no-repeat;
 		width: 240px;
 		height: 132px;
+	}
+
+	.background-image {
+		background-image: url('/mat3labs/bg.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 	}
 </style>

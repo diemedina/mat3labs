@@ -8,6 +8,5 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: 'https://dieemedinaa.github.io',
-  base: 'mat3labs',
+  site: 'https://mat3labs.com/'
 });
